@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00717511A68FB9D004DCA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00717501A68FB9D004DCA40 /* main.m */; };
+		E00717541A68FB9D004DCA40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00717531A68FB9D004DCA40 /* AppDelegate.m */; };
+		E00717571A68FB9D004DCA40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00717561A68FB9D004DCA40 /* ViewController.m */; };
+		E007175A1A68FB9D004DCA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00717581A68FB9D004DCA40 /* Main.storyboard */; };
+		E007175C1A68FB9D004DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E007175B1A68FB9D004DCA40 /* Images.xcassets */; };
+		E007175F1A68FB9E004DCA40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E007175D1A68FB9E004DCA40 /* LaunchScreen.xib */; };
+		E007176B1A68FB9E004DCA40 /* LotteryLuckyWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E007176A1A68FB9E004DCA40 /* LotteryLuckyWheelTests.m */; };
+		E007177A1A6909D4004DCA40 /* HVWLuckyWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00717791A6909D4004DCA40 /* HVWLuckyWheel.xib */; };
+		E007177D1A6909E8004DCA40 /* HVWLuckyWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = E007177C1A6909E8004DCA40 /* HVWLuckyWheel.m */; };
+		E00717801A690BDA004DCA40 /* HVWLuckyWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E007177F1A690BDA004DCA40 /* HVWLuckyWheelButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00717651A68FB9E004DCA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00717431A68FB9D004DCA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E007174A1A68FB9D004DCA40;
+			remoteInfo = LotteryLuckyWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E007174B1A68FB9D004DCA40 /* LotteryLuckyWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryLuckyWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E007174F1A68FB9D004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00717501A68FB9D004DCA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00717521A68FB9D004DCA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00717531A68FB9D004DCA40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00717551A68FB9D004DCA40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E00717561A68FB9D004DCA40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E00717591A68FB9D004DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E007175B1A68FB9D004DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E007175E1A68FB9E004DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E00717641A68FB9E004DCA40 /* LotteryLuckyWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryLuckyWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00717691A68FB9E004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E007176A1A68FB9E004DCA40 /* LotteryLuckyWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryLuckyWheelTests.m; sourceTree = "<group>"; };
+		E00717791A6909D4004DCA40 /* HVWLuckyWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HVWLuckyWheel.xib; sourceTree = "<group>"; };
+		E007177B1A6909E8004DCA40 /* HVWLuckyWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLuckyWheel.h; sourceTree = "<group>"; };
+		E007177C1A6909E8004DCA40 /* HVWLuckyWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLuckyWheel.m; sourceTree = "<group>"; };
+		E007177E1A690BDA004DCA40 /* HVWLuckyWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLuckyWheelButton.h; sourceTree = "<group>"; };
+		E007177F1A690BDA004DCA40 /* HVWLuckyWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLuckyWheelButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00717481A68FB9D004DCA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00717611A68FB9E004DCA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00717421A68FB9D004DCA40 = {
+			isa = PBXGroup;
+			children = (
+				E007174D1A68FB9D004DCA40 /* LotteryLuckyWheel */,
+				E00717671A68FB9E004DCA40 /* LotteryLuckyWheelTests */,
+				E007174C1A68FB9D004DCA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E007174C1A68FB9D004DCA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E007174B1A68FB9D004DCA40 /* LotteryLuckyWheel.app */,
+				E00717641A68FB9E004DCA40 /* LotteryLuckyWheelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E007174D1A68FB9D004DCA40 /* LotteryLuckyWheel */ = {
+			isa = PBXGroup;
+			children = (
+				E00717741A68FC43004DCA40 /* Classes */,
+				E007174E1A68FB9D004DCA40 /* Supporting Files */,
+			);
+			path = LotteryLuckyWheel;
+			sourceTree = "<group>";
+		};
+		E007174E1A68FB9D004DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00717581A68FB9D004DCA40 /* Main.storyboard */,
+				E007175B1A68FB9D004DCA40 /* Images.xcassets */,
+				E007175D1A68FB9E004DCA40 /* LaunchScreen.xib */,
+				E007174F1A68FB9D004DCA40 /* Info.plist */,
+				E00717501A68FB9D004DCA40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00717671A68FB9E004DCA40 /* LotteryLuckyWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E007176A1A68FB9E004DCA40 /* LotteryLuckyWheelTests.m */,
+				E00717681A68FB9E004DCA40 /* Supporting Files */,
+			);
+			path = LotteryLuckyWheelTests;
+			sourceTree = "<group>";
+		};
+		E00717681A68FB9E004DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00717691A68FB9E004DCA40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00717741A68FC43004DCA40 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E00717781A68FC55004DCA40 /* Other */,
+				E00717771A68FC51004DCA40 /* Model */,
+				E00717761A68FC4D004DCA40 /* View */,
+				E00717751A68FC49004DCA40 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E00717751A68FC49004DCA40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E00717551A68FB9D004DCA40 /* ViewController.h */,
+				E00717561A68FB9D004DCA40 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E00717761A68FC4D004DCA40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E00717791A6909D4004DCA40 /* HVWLuckyWheel.xib */,
+				E007177B1A6909E8004DCA40 /* HVWLuckyWheel.h */,
+				E007177C1A6909E8004DCA40 /* HVWLuckyWheel.m */,
+				E007177E1A690BDA004DCA40 /* HVWLuckyWheelButton.h */,
+				E007177F1A690BDA004DCA40 /* HVWLuckyWheelButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E00717771A68FC51004DCA40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E00717781A68FC55004DCA40 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E00717521A68FB9D004DCA40 /* AppDelegate.h */,
+				E00717531A68FB9D004DCA40 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E007174A1A68FB9D004DCA40 /* LotteryLuckyWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E007176E1A68FB9E004DCA40 /* Build configuration list for PBXNativeTarget "LotteryLuckyWheel" */;
+			buildPhases = (
+				E00717471A68FB9D004DCA40 /* Sources */,
+				E00717481A68FB9D004DCA40 /* Frameworks */,
+				E00717491A68FB9D004DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryLuckyWheel;
+			productName = LotteryLuckyWheel;
+			productReference = E007174B1A68FB9D004DCA40 /* LotteryLuckyWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00717631A68FB9E004DCA40 /* LotteryLuckyWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00717711A68FB9E004DCA40 /* Build configuration list for PBXNativeTarget "LotteryLuckyWheelTests" */;
+			buildPhases = (
+				E00717601A68FB9E004DCA40 /* Sources */,
+				E00717611A68FB9E004DCA40 /* Frameworks */,
+				E00717621A68FB9E004DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00717661A68FB9E004DCA40 /* PBXTargetDependency */,
+			);
+			name = LotteryLuckyWheelTests;
+			productName = LotteryLuckyWheelTests;
+			productReference = E00717641A68FB9E004DCA40 /* LotteryLuckyWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00717431A68FB9D004DCA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hellovoidworld;
+				TargetAttributes = {
+					E007174A1A68FB9D004DCA40 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E00717631A68FB9E004DCA40 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E007174A1A68FB9D004DCA40;
+					};
+				};
+			};
+			buildConfigurationList = E00717461A68FB9D004DCA40 /* Build configuration list for PBXProject "LotteryLuckyWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00717421A68FB9D004DCA40;
+			productRefGroup = E007174C1A68FB9D004DCA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E007174A1A68FB9D004DCA40 /* LotteryLuckyWheel */,
+				E00717631A68FB9E004DCA40 /* LotteryLuckyWheelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00717491A68FB9D004DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007177A1A6909D4004DCA40 /* HVWLuckyWheel.xib in Resources */,
+				E007175A1A68FB9D004DCA40 /* Main.storyboard in Resources */,
+				E007175F1A68FB9E004DCA40 /* LaunchScreen.xib in Resources */,
+				E007175C1A68FB9D004DCA40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00717621A68FB9E004DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00717471A68FB9D004DCA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007177D1A6909E8004DCA40 /* HVWLuckyWheel.m in Sources */,
+				E00717571A68FB9D004DCA40 /* ViewController.m in Sources */,
+				E00717541A68FB9D004DCA40 /* AppDelegate.m in Sources */,
+				E00717801A690BDA004DCA40 /* HVWLuckyWheelButton.m in Sources */,
+				E00717511A68FB9D004DCA40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00717601A68FB9E004DCA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E007176B1A68FB9E004DCA40 /* LotteryLuckyWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00717661A68FB9E004DCA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E007174A1A68FB9D004DCA40 /* LotteryLuckyWheel */;
+			targetProxy = E00717651A68FB9E004DCA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00717581A68FB9D004DCA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00717591A68FB9D004DCA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E007175D1A68FB9E004DCA40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E007175E1A68FB9E004DCA40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E007176C1A68FB9E004DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E007176D1A68FB9E004DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E007176F1A68FB9E004DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotteryLuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E00717701A68FB9E004DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotteryLuckyWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E00717721A68FB9E004DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LotteryLuckyWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryLuckyWheel.app/LotteryLuckyWheel";
+			};
+			name = Debug;
+		};
+		E00717731A68FB9E004DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LotteryLuckyWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryLuckyWheel.app/LotteryLuckyWheel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00717461A68FB9D004DCA40 /* Build configuration list for PBXProject "LotteryLuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E007176C1A68FB9E004DCA40 /* Debug */,
+				E007176D1A68FB9E004DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E007176E1A68FB9E004DCA40 /* Build configuration list for PBXNativeTarget "LotteryLuckyWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E007176F1A68FB9E004DCA40 /* Debug */,
+				E00717701A68FB9E004DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00717711A68FB9E004DCA40 /* Build configuration list for PBXNativeTarget "LotteryLuckyWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00717721A68FB9E004DCA40 /* Debug */,
+				E00717731A68FB9E004DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00717431A68FB9D004DCA40 /* Project object */;
+}
